@@ -6,6 +6,12 @@
   <title>Carga Virtual & SUBE - Melfi</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+    /*Para que baje suave hasta el ID marcado*/
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -13,7 +19,7 @@
       <h1 class="logo">MELGER</h1>
       <nav>
         <ul>
-          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#productos">Servicios</a></li>
           <li><a href="#beneficios">Beneficios</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
@@ -24,8 +30,8 @@
   <section class="hero">
     <div class="hero-content">
       <h2>Cobrá y Recargá al Instante</h2>
-      <p>Ofrecé servicios de carga virtual, recarga SUBE, cobro QR y más.</p>
-      <a href="#contacto" class="btn">Quiero Sumarte</a>
+      <p>Ofrecé servicios de carga virtual, recarga SUBE, y más.</p>
+      <a href="#contacto" class="btn">Quiero sumarme</a>
     </div>
     <img src="assets/posnet.jpg" alt="Dispositivo de cobro" />
   </section>
@@ -41,11 +47,6 @@
       <h3>Recarga SUBE</h3>
       <p>Ofrecé el servicio de carga SUBE habilitado y legal.</p>
     </div>
-    <div class="feature">
-      <i class="fas fa-hand-holding-usd"></i>
-      <h3>Cobro con QR</h3>
-      <p>Aceptá pagos con tarjeta o billeteras sin necesidad de cuenta bancaria.</p>
-    </div>
   </section>
 
   <section class="products-section" id="productos">
@@ -53,49 +54,67 @@
   <div class="product-grid">
     <div class="product-card">
       <img src="assets/sube.jpg" alt="Recarga SUBE" />
-      <h3>Recarga SUBE</h3>
-      <p>Ofrecé a tus clientes la posibilidad de cargar su tarjeta SUBE en tu local.</p>
+      <h3>Recarga Sube</h3>
+      
     </div>
     <div class="product-card">
-      <img src="assets/cargaaltoque.png" alt="Carga Virtual" />
-      <h3>Carga Virtual</h3>
-      <p>Recargas para todas las compañías de telefonía móvil y TV prepaga.</p>
+      <img src="assets/movistar.jpg" alt="Recarga SUBE" />
+      <h3>Recarga Movistar</h3>
+      
     </div>
     <div class="product-card">
-      <img src="assets/posnet2.png" alt="Cobro Virtual" />
-      <h3>Cobro de Servicios</h3>
-      <p>Cobrá impuestos, servicios y más. Rápido, seguro y sin cuenta bancaria.</p>
+      <img src="assets/personal.jpg" alt="Carga Virtual" />
+      <h3>Recarga Personal</h3>
     </div>
-    <!-- Bloque extra opcional -->
     <div class="product-card">
-      <img src="assets/posnet1.webp" alt="Pagos QR" />
-      <h3>Pagos con QR</h3>
-      <p>Aceptá pagos con QR desde cualquier billetera virtual y tarjetas.</p>
+      <img src="assets/claro.jpg" alt="Cobro Virtual" />
+      <h3>Recarga Claro</h3>
+      
     </div>
   </div>
+
+<div class="product-grid">
+    <div class="product-card">
+       <img src="assets/tuenti.png" alt="Recarga SUBE" />
+      <h3>Recarga Tuenti</h3>
+    </div>
+    <div class="product-card">
+      <img src="assets/direttv.jpg" alt="Recarga SUBE" />
+      <h3>Recarga Direct TV</h3>
+    </div>
+    <div class="product-card">
+      <img src="assets/antina.png" alt="Carga Virtual" />
+      <h3>Recarga Antina</h3>
+    </div>
+    <div class="product-card">
+      <img src="assets/edenor.jpg" alt="Cobro Virtual" />
+      <h3>Recarga Edenor Prepago</h3>
+    </div>
+  </div>
+
+
 </section>
 
 
   <section class="benefits" id="beneficios">
     <h2>¿Por qué elegirnos?</h2>
     <div class="benefit-grid">
+      <div class="card">✔ 25 años en el Rubro</div>
       <div class="card">✔ Sin inversión inicial</div>
       <div class="card">✔ Atención personalizada</div>
-      <div class="card">✔ Marketing incluido</div>
-      <div class="card">✔ Material físico</div>
+      <div class="card">✔ Provisión de Equipos</div>
       <div class="card">✔ Alta inmediata</div>
     </div>
   </section>
 
   <section class="contact" id="contacto">
     <h2>Contacto</h2>
-    <p><i class="fab fa-whatsapp"></i> Emiliano Melfi – 11 xxxx xxxx</p>
-    <p><i class="fas fa-globe"></i> www.tusitioweb.com.ar</p>
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/5411xxxxxxxx" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <p class="num_contacto"><a href="https://wa.me/541170180090" target="_blank"><i class="fab fa-whatsapp"></i></a></i> MelgerCard - 11 7018 0090</p>
+    <p><i class="fas fa-globe"></i> www.cargasube.com.ar</p>
+    <!--div class="social-icons">
+      <a href="https://wa.me/541170180090" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
-  </section>
+  </section-->
 
   <footer>
     <p>&copy; 2025 – Melfi Studio Web & Design</p>

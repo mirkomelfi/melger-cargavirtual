@@ -24,7 +24,8 @@ header {
 
 .logo {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 nav ul {
@@ -76,7 +77,7 @@ nav a {
 
 .features {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 3rem 2rem;
   background: white;
   flex-wrap: wrap;
@@ -97,7 +98,7 @@ nav a {
 
 .benefits {
   padding: 3rem 2rem;
-  background: var(--bg-color);
+  background-color: white;
   text-align: center;
 }
 
@@ -106,23 +107,27 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
   margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .card {
   background: white;
   padding: 1rem;
   border-radius: var(--radius);
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 10px  rgba(0,0,0,0.05); 
 }
 
 .contact {
   padding: 3rem 2rem;
   text-align: center;
-  background: white;
+}
+.contact .num_contacto {
+  font-size: 1.2rem;
 }
 
 .contact i {
   margin-right: 0.5rem;
+  font-size: 1.5rem;
   color: var(--main-color);
 }
 
@@ -134,7 +139,7 @@ nav a {
 
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 0rem 2rem;
   font-size: 0.9rem;
   background: var(--bg-color);
 }
@@ -174,9 +179,14 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   background: white;
   border: 1px solid #ddd;
   border-radius: 12px;
