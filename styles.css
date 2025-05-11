@@ -61,7 +61,7 @@ nav a {
 .hero {
   background: 
     linear-gradient(to left, rgba(0, 25, 72, 0.7), rgba(0, 25, 72, 1)),
-    url('/assets/posnet1.webp') no-repeat center center;
+    url('./assets/posnet1.webp') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -260,7 +260,6 @@ footer {
   color: #555;
 }
 
-
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -280,5 +279,5 @@ footer {
 .whatsapp-float img {
   display: block;
   width: 40px;
-  height: 40px;
+  height: 40px;
 }
