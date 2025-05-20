@@ -384,4 +384,8 @@ footer {
   .card {
     font-size: 0.9rem;
   }
+
+    footer {
+    font-size: 0.8rem;
+  }
 }
